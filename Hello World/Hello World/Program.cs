@@ -8,15 +8,46 @@ namespace Hello_World
 {
      class Program
     {
+
         static void Main(string[] args)
         {
+
+            WriteSomething();
+            WriteSomethingSpecific("I am an atgument and am called from a method");
+            Console.Read();
+        }
+    
+            public static void WriteSomething()
+            {
+
+            Console.WriteLine("I am called from a method");
             
 
 
+            }
 
-        }
-    }
+             public static void WriteSomethingSpecific(string myText)
+
+            {
+
+            Console.WriteLine(myText);
+            
+
+            }
+
+
+       }
 }
+
+
+
+
+
+//contsant as fileds
+//const double PI = 3.14159265359;
+//const int weeks = 52, months = 12;
+//const string birthday = "05.16.1999";
+
 
 
 
